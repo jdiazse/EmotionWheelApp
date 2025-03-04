@@ -1,5 +1,12 @@
 ### Emotion Wheel App
 
+### Antes de empezar
+
+La app Emotion Wheel funciona apartir de la Realtime Database de firebase, para su correcto uso la linea 32 de la clase "FirebaseManager" debe ser editada al path de la llave de acceso en su ordenador.
+
+![image](https://github.com/user-attachments/assets/44049ee4-0237-4bc9-9ad0-b94421ec337e)
+
+
 ## Estructura del Código
 
 El código está organizado en tres paquetes principales: **Model**, **ViewModel** y **View**, cada uno con sus respectivas clases. Esta estructura sigue el patrón de diseño **MVVM (Model-View-ViewModel)**, que permite una separación clara de responsabilidades y facilita el mantenimiento y la escalabilidad del proyecto.
