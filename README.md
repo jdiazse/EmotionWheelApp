@@ -7,6 +7,11 @@ La app Emotion Wheel funciona apartir de la Realtime Database de firebase, para 
 ![image](https://github.com/user-attachments/assets/44049ee4-0237-4bc9-9ad0-b94421ec337e)
 
 
+Adicionalmente en la linea 13 del codigo se debe agregar la llave del API de OpenAI, la cual no es incluida en este repositorio debido a que al ser subida, OpenAI automaticamente baja la llave dela web.
+
+![image](https://github.com/user-attachments/assets/fd9b6bf5-79ab-4010-b6b7-ecdf52f3d3bd)
+
+
 ## Estructura del Código
 
 El código está organizado en tres paquetes principales: **Model**, **ViewModel** y **View**, cada uno con sus respectivas clases. Esta estructura sigue el patrón de diseño **MVVM (Model-View-ViewModel)**, que permite una separación clara de responsabilidades y facilita el mantenimiento y la escalabilidad del proyecto.
