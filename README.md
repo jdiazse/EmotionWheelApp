@@ -2,14 +2,43 @@
 
 ### Antes de empezar
 
+Para el uso de la app se debe generar una llave de uso, encender la autenticacion, la realtimedatabase y obtener la llave de API en un nuevo proyecto en la pagina de Firebase; https://console.firebase.google.com/
+
+## Generación de la llave de servicio
+
+Una vez dentro del proyecto de firebase de debe generar una llave de servicio y tambien obtener el enlace para inicializarla
+
+![image](https://github.com/user-attachments/assets/499b17d9-f896-4eb8-87ca-7bc3d3601379)
+
+(La parte subrayada es el link y el boton de generar clave le descargara un archivo .JSON
+
+## Obtención de la llave de API 
+
+![image](https://github.com/user-attachments/assets/17c19564-0e94-4741-aa47-4a0ed89ef9c9)
+
+La llave API se genera en la web de firebase en esta pantalla, esta hay que copiarla y ponerla en la linea numero 28 de la clase FirebaseManager
+
+![image](https://github.com/user-attachments/assets/25228a44-b454-4b1a-be04-59c08e3e8ebc)
+
+
 La app Emotion Wheel funciona apartir de la Realtime Database de firebase, para su correcto uso la linea 32 de la clase "FirebaseManager" debe ser editada al path de la llave de acceso en su ordenador.
 
 ![image](https://github.com/user-attachments/assets/44049ee4-0237-4bc9-9ad0-b94421ec337e)
 
+Para obtener su llave se debe ir a la pagina de open ai para apis (https://platform.openai.com/docs/overview) registrare y generar su propia llave.
 
 Adicionalmente en la linea 13 de la clase "OpenAIAPI" se debe agregar la llave del API de OpenAI, la cual no es incluida en este repositorio debido a que al ser subida, OpenAI automaticamente baja la llave dela web.
 
 ![image](https://github.com/user-attachments/assets/fd9b6bf5-79ab-4010-b6b7-ecdf52f3d3bd)
+
+
+## Ejecución del programa
+
+Para que el programa sea ejecutado una vez instalado en su IDE el proyecto debera ejecutar la clase "AuthGUI" en el paquete "view"
+
+![image](https://github.com/user-attachments/assets/e0afc906-a221-4bf3-82b4-d792aa7d0665)
+
+
 
 
 ## Estructura del Código
