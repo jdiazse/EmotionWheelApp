@@ -10,7 +10,7 @@ import java.util.*;
 
 public class OpenAIAPI {
 
-    private static final String API_KEY = "";
+    private static final String API_KEY = "AQUI VA SU LLAVE DE LA API DE OPEN AI";
 
     public static String getProvisionalDiagnosis(String emotionData) throws IOException, InterruptedException {
         Map<String, Object> requestBody = new HashMap<>();

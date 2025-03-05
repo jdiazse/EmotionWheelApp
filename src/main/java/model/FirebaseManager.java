@@ -25,15 +25,15 @@ import java.util.concurrent.CountDownLatch;
 public class FirebaseManager {
     private static DatabaseReference database;
     private static FirebaseAuth auth;
-    private static final String FIREBASE_API_KEY = "AIzaSyDqV7w9mTuGyjV8ZfO4NDEyapwUml-jExk";
+    private static final String FIREBASE_API_KEY = "AQUI VA SU LLAVE DE LA API DE FIREBASE";
 
     public static void initializeFirebase() {
         try {
-            FileInputStream serviceAccount = new FileInputStream("C:\\Users\\jdsjh\\Downloads\\EmotionWheelKEY\\emotionwheel-7181f-firebase-adminsdk-fbsvc-51f8b96d81.json");
+            FileInputStream serviceAccount = new FileInputStream("AQUI/VA/SU/DIRECTORIO");
 
             FirebaseOptions options = new FirebaseOptions.Builder()
                     .setCredentials(GoogleCredentials.fromStream(serviceAccount))
-                    .setDatabaseUrl("https://emotionwheel-7181f-default-rtdb.firebaseio.com")
+                    .setDatabaseUrl("AQUI VA SU ENLACE")
                     .build();
 
             if (FirebaseApp.getApps().isEmpty()) {
